@@ -48,7 +48,7 @@ The NFT Marketplace provides a decentralized platform for creating, listing, and
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/SwastidSolanki/NFT-Marketplace.git
+   git clone https://github.com/jaygohil-x/NFT-Marketplace.git
    cd NFT-Marketplace
    ```
 
