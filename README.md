@@ -97,12 +97,3 @@ The NFT Marketplace provides a decentralized platform for creating, listing, and
 - **scripts/**: Deployment scripts.
 - **utils/**: Web3 and blockchain helpers.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository, create a branch, make your changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
-
----
