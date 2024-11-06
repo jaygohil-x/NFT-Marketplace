@@ -1,7 +1,3 @@
-Here's an updated README with the Sepolia testnet details:
-
----
-
 # NFT Marketplace
 
 This is a decentralized NFT (Non-Fungible Token) marketplace built on the Sepolia testnet, allowing users to mint, buy, and sell unique digital assets securely. The marketplace leverages Solidity for smart contracts, IPFS for decentralized storage, and the Alchemy API for enhanced blockchain interactions.
