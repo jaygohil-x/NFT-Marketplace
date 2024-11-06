@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: linear-gradient(90deg, #070707 0%, #201f1f 100%);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1580px;
+  margin: 0 auto;
+  width: 96%;
+  height: 90vh;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.textContainer {
+  color: white;
+  max-width: 600px;
+  margin-top: -70px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.card {
+  display: flex;
+  background-color: #000;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.7s ease, box-shadow 0.7s ease;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 30px rgb(255, 255, 255);
+}
+
+.cardImage {
+  width: 500px;
+  height: 500px;
+}
+
+.heading {
+  font-size: 45px;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.btn:hover {
+  background-color: #ff0606;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.buyBtn {
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.buyBtn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .textContainer {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .heading {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
